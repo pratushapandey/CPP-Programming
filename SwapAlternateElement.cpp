@@ -2,15 +2,16 @@
 using namespace std;
 
 void swapElements(int arr[],int n){
-	int i = 1;
-	while(i <= n){
-		swap(arr[i],arr[i-1]);
+	int i = 0;
+	while(i < n){
+		if(i+1<n)
+		swap(arr[i],arr[i+1]);
 		i += 2;
 	}
 }
 
 void printArray(int arr[],int n){
-	int i = 0; 
+	int i; 
 	for(i = 0; i < n; i++)
 	cout<<arr[i]<<" ";
 }
