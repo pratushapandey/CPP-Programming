@@ -2,7 +2,7 @@
 using namespace std;
 
 void swapElements(int arr[],int n){
-	int i = 1,temp;
+	int i = 1;
 	while(i <= n){
 		swap(arr[i],arr[i-1]);
 		i += 2;
