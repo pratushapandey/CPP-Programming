@@ -4,7 +4,8 @@ using namespace std;
 int bits(int a){
 	int count = 0;
 	
-	while(a){
+	while(a)
+	{
 		count += a & 1;
 		a= a >> 1;
 	}
