@@ -14,7 +14,7 @@ int main()
 	int a1, n, d;
 	cin>>a1>>n>>d;
 	
-	cout<< aP(a1,n,d)<<endl;
+	cout<<aP(a1,n,d);
 	
 	return 0;
 }
